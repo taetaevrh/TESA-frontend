@@ -1,0 +1,65 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage
+*.lcov
+
+# Dependency directories
+node_modules/
+jspm_packages/
+bower_components
+web_modules/
+
+# Output directories
+dist/
+build/
+.out
+.next
+.nuxt
+.svelte-kit/
+
+# Cache directories
+.cache/
+.parcel-cache
+.nyc_output
+.vite/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Lock files
+pnpm-lock.yaml
+yarn.lock
+.package-lock.json
+
+# Others
+*.tsbuildinfo
+.yarn/*
+.pnp.*
